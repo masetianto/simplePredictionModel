@@ -1,0 +1,17 @@
+Mengembangkan model prediksi harga rumah di Tangerang berdasarkan luas tanah, luas bangunan serta kedekatan lokasi dengan pusat kota.
+
+Step 1: mempresentasikan harga_rumah.txt kedalam tipe data dictionary dan menampungkan dalam sebuah list. Melakukan transformasi data dilakukan dengan mengurangi setiap nilai atribut dalam data dengan nilai atribut minimum dan membaginya dengan nilai atribut maksimum yang dikurangi dengan nilai atribut minimum.
+
+Step 2: membuat sebuah fungsi bernama get_all_specified_attribute yang menerima parameter list_of_dictionary (tipe data list yang berisikan sekumpulan tipe data dictionary) dan specified_key (tipe data string).
+
+Step 3: membuat fungsi min_value yang menerima parameter list_attributes (berupa tipe data list) dan mengembalikan nilai terkecil dalam list_attributes dan max_value yang menerima parameter list_attribute dan mengembalikan nilai terbesar dalam list_attributes.
+
+Step 4: membuat fungsi transform_attribute yang menerima parameter attr (sebuah bilangan), max_attr (sebuah bilangan) dan min_attr (sebuah bilangan) yang mengembalikan nilai transformasi dari sebuah attribute.
+
+Step 5: membuat fungsi data_transformation yang menerima parameter list_of_dictionary (sebuah list yang berisikan tipe data dictionary) dan list_attribute_names (sebuah list yang berisikan tipe data string) mengembalikan hasil transformasi data dari list_of_dictionary berdasarkan list_attribute_names telah dispesifikasikan.
+
+Step 6: membuat fungsi transform_data yang menerima parameter data dan attr_info dan mengembalikan nilai atribut dari data baru yang telah ditransformasikan.
+
+Step 7: membuat sistem prediksi harga berdasarkan nilai kemiripan atribut.
+
+Step 8: menghitung harga rumah, menggunakan variabel data untuk memprediksi harga rumah, melakukan transformasikan data, dan Hitunglah prediksi harga dari variabel data tersebut.
